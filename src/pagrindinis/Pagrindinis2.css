@@ -1,0 +1,111 @@
+.paslaugos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  width: 1400px;
+  padding-top: 100px;
+  margin: auto;
+}
+
+.paslaugosPavadinimas h2 {
+  font-family: "Roboto Serif", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  color: #ff6600;
+  width: 890px;
+  text-align: center;
+  margin: 0;
+}
+
+.paslaugosPavadinimas h1 {
+  font-family: "Roboto Serif", sans-serif;
+  font-weight: 600;
+  font-size: 64px;
+  text-align: 74px;
+  color: #0c1a3a;
+  text-align: center;
+  width: 890px;
+  height: 150px;
+}
+
+.paslaugu-turinys {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 29px;
+  max-width: 1400px;
+}
+.turinys1,
+.turinys2,
+.turinys3,
+.turinys4,
+.turinys5,
+.turinys6 {
+  width: 447px;
+  height: 391px;
+  border-radius: 20px;
+  background-color: #f4f4f4;
+  margin: 30px 0 30px 0;
+}
+.turinys1 img,
+.turinys2 img,
+.turinys3 img,
+.turinys4 img,
+.turinys5 img,
+.turinys6 img {
+  width: 80px;
+  height: 80px;
+  padding: 25px;
+}
+
+.turinys2 h3,
+.turinys3 h3,
+.turinys4 h3,
+.turinys5 h3,
+.turinys6 h3 {
+  font-family: "Roboto Serif", sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  color: #0c1a3a;
+  padding: 25px;
+  margin: 0;
+}
+
+.turinys2 p,
+.turinys3 p,
+.turinys4 p,
+.turinys5 p,
+.turinys6 p {
+  width: 332px;
+  height: 69px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.03em;
+  color: #0c1a3ae5;
+  padding: 25px;
+  margin: 0;
+}
+.turinys1 {
+  background-color: #0c1a3a;
+}
+.turinys1 h3 {
+  font-family: "Roboto Serif", sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  color: #f4f4f4;
+  padding: 25px;
+  margin: 0;
+}
+.turinys1 p {
+  width: 332px;
+  height: 69px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.03em;
+  color:#f4f4f4;
+  padding: 25px;
+  margin: 0;
+}

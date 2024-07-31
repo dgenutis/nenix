@@ -1,0 +1,44 @@
+.vidinis-projektai {
+  width: 1400px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.vidinis-projektai h2 {
+  text-align: center;
+  font-family: "Roboto Serif", sans-serif;
+  font-size: 64px;
+  font-weight: 600;
+  color: #0c0c0c;
+}
+
+.vidinis-naujausi {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.vidinis-naujausi h3 {
+    font-family: 'Roboto Serif', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #0C0C0C;
+    width: 433px;
+    height: 35px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.truncated-text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.vidinis-naujausi p {
+font-size: 18px;
+font-weight: 400;
+letter-spacing: 0.03em;
+color: #0C0C0CE5;
+}

@@ -1,0 +1,52 @@
+.atsiliepimai {
+  width: 1400px;
+  height: 511px;
+  background-color: #f4f4f4;
+  border-radius: 20px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.atsiliepimai h4 {
+  margin: 0;
+  font-family: "Roboto Serif", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 29.28px;
+  text-align: center;
+  width: 1313px;
+  height: 87px;
+  color: #0c1a3a;
+}
+
+.atsiliepimai h3 {
+  margin: 0;
+  font-family: "Roboto Serif", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  color: #0c1a3a;
+  margin-top: 20px;
+}
+
+.atsiliepimai p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #0c1a3ae5;
+}
+
+.rodykles {
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+}

@@ -1,0 +1,51 @@
+.baneris {
+  width: 1400px;
+  height: 209px;
+  background-color: #0c1a3ae5;
+  margin: 0 auto;
+  border-radius: 20px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-image: url(../../public/susisiekime.jpg);
+  background-size: cover;
+  background-position: center 65%;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.baneris h2 {
+  font-family: "Roboto Serif", sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 52.7px;
+  text-align: center;
+  color: #fbfbfb;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.baneris button {
+  width: 115px;
+  height: 47px;
+  padding: 8px 16px;
+  gap: 10px;
+  border-radius: 23px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23.44px;
+  letter-spacing: 0.03em;
+  color: #0c1a3a;
+
+}
+
+.baneris button:hover {
+  opacity: 0.8;
+  transition: opacity 0.3s ease-in-out;
+
+}

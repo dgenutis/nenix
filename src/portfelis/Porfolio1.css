@@ -1,0 +1,61 @@
+.porfelis-intro {
+    width: 1400px;
+    height: 350px;
+    border-radius: 20px;
+    background-color: #0C1A3A;
+    margin: 0 auto;
+    margin-top: 108px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.porfelis-intro h2 {
+    font-family: 'Roboto Serif', sans-serif;
+    font-size: 77px;
+    font-weight: 700;
+    line-height: 90.13px;
+    letter-spacing: 0.01em;
+    color: #FBFBFB;
+}
+
+.portfelis-darbai {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.portfelis-darbai-item {
+    flex: 1 1 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.portfelis-darbai-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.portfelis-darbai h3 {
+    font-family: 'Roboto Serif', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 35.13px;
+    color: #0c1a3a;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.portfelis-darbai p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.44px;
+    letter-spacing: 0.03em;
+    padding-bottom: 50px;
+}

@@ -1,0 +1,215 @@
+.footer {
+  background-color: #0c1a3a;
+  max-width: 1921px;
+  height: 604px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1400px;
+  height: 253px;
+  max-width: 100%;
+  max-height: 100%;
+  margin-top: 100px;
+}
+
+.footer1-1 {
+  display: flex;
+  flex-direction: column;
+  width: 357px;
+  height: 145px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.footer1-1 img {
+  width: 174px;
+  height: 52px;
+}
+
+.footer1-1 p {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.footer1-2 {
+  display: flex;
+  flex-direction: column;
+  width: 120px;
+  height: 179px;
+  padding-right: 40px;
+}
+.footer1-2 h3 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-family: "Roboto Serif", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  padding-left: 42px;
+}
+.footer1-2 ul {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.footer1-2 ul li {
+  list-style: none;
+}
+
+.footer1-2 ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  line-height: 20px;
+}
+
+.footer1-2 ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer1-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 16px;
+  width: 363px;
+  height: 253px;
+}
+
+.footer1-3 h3 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-family: "Roboto Serif", sans-serif;
+}
+
+.footer1-3 a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer1-3 a:hover:hover {
+  text-decoration: underline;
+}
+
+.footer1-4 {
+  display: flex;
+  flex-direction: column;
+  width: 443px;
+  height: 109px;
+}
+
+.footer1-4 h3 {
+  font-family: "Roboto Serif", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.footer1-4-1 {
+  display: flex;
+  flex-direction: column;
+  width: 443px;
+  height: 109px;
+}
+
+.input-container {
+  position: relative;
+  width: 100%;
+}
+
+.input-container input {
+  width: 65%;
+  height: 67px;
+  border-radius: 40px;
+  border: none;
+  padding-right: 160px; /* Pridėkite pakankamai vietos mygtukui */
+}
+
+.input-container input::placeholder {
+  color: #0c1a3ae5;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+}
+
+.input-container button {
+  position: absolute;
+  right: 10px; /* Atstumas nuo dešinio krašto */
+  top: 50%;
+  transform: translateY(-50%);
+  height: 47px;
+  border-radius: 23px;
+  background-color: #0c1a3a;
+  color: #ffffffe5;
+  border: none;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+
+.input-container button:hover {
+  opacity: 0.8;
+  transition: opacity 0.3s ease-in-out;
+}
+
+
+.juosta hr {
+  width: 1400px;
+  max-width: 100%;
+  opacity: 40%;
+  border: 1px solid #f4f4f4;
+  margin-top: 80px;
+}
+
+.footer2 {
+  width: 1400px;
+  height: 60px;
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.footer2 h3 {
+  margin-top: 0;
+  font-family: "Roboto Serif", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #f4f4f4;
+}
+
+.footer2 p {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+}
+
+.footer2 a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer2 a:hover {
+  text-decoration: underline;
+}
+
+.footer2-4 img {
+  margin-left: 29px;
+  cursor: pointer;
+}
+
+.footer2-4 img:hover {
+  opacity: 0.8;
+  transition: opacity 0.3s ease-in-out;
+}

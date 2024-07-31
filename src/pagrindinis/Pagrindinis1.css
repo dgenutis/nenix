@@ -1,0 +1,252 @@
+.pagrindinis {
+  max-width: 1921px;
+  height: 984px;
+  max-width: 100%;
+  background-color: #0c1a3a;
+  background-image: url(../../public/fonas1.png);
+  background-size: cover;
+  background-blend-mode: multiply;
+  display: flex;
+  flex-direction: row;
+}
+
+.pagrindinis1 {
+  width: 183px;
+  height: 192px;
+  margin-top: 130px;
+}
+
+.pagrindinis1 img {
+  display: block;
+}
+
+.pagrindinis2 {
+  max-width: 631px;
+  max-height: 375px;
+  padding-top: 197px;
+  padding-left: 261px;
+}
+
+.pagrindinis2-1 h2 {
+  font-family: "Roboto Serif", sans-serif;
+  font-weight: 600;
+  font-size: 64px;
+  margin: 0;
+  color: #fbfbfb;
+}
+
+.keiciamSpalva {
+  color: #ff6600 !important;
+}
+
+.pagrindinis2-1 p {
+  color: #fbfbfb;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  max-width: 557px;
+}
+
+.pagrindinis2-1 button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 288px;
+  height: 48px;
+  border-radius: 23px;
+  border: none;
+  font-weight: 400;
+  font-size: 20px;
+  color: #0c1a3ae5;
+  background-color: #fff;
+}
+.pagrindinis2-1 button:hover {
+  background-color: #ff6600;
+  color: #fff;
+}
+.pagrindinis2-1 button img {
+  width: 28px;
+  height: 28px;
+  margin-right: 20px;
+}
+
+.pagrindinis2-2 {
+  max-width: 693px;
+  max-height: 97px;
+  margin-top: 180px;
+}
+
+.pagrindinis2-2 h2 {
+  font-family: "Roboto Serif", sans-serif;
+  color: #ff6600;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.logotipai {
+  display: flex;
+}
+.logotipai1 {
+  width: 200px;
+  max-height: 70px;
+  max-width: 100%;
+}
+
+.logotipai2 {
+  width: 140px;
+  max-height: 62px;
+  max-width: 100%;
+}
+.logotipai3 {
+  width: 147px;
+  max-height: 57px;
+  max-width: 100%;
+}
+
+.logotipai4 {
+  max-width: 147px;
+  max-height: 53px;
+  max-width: 100%;
+}
+
+.pagrindinis3 img {
+  width: 830px;
+  max-width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 1850px) {
+  .pagrindinis2-1 h2 {
+    font-size: 54px;
+  }
+}
+
+@media screen and (max-width: 1615px) {
+  .pagrindinis2-1 h2 {
+    font-size: 44px;
+  }
+  .pagrindinis2-1 p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 1410px) {
+  .pagrindinis2-1 h2 {
+    font-size: 40px;
+  }
+  .pagrindinis2-1 p {
+    font-size: 15px;
+  }
+  .pagrindinis1 img {
+    width: 140px;
+    height: 142px;
+    margin-top: 10px;
+  }
+
+  .pagrindinis2-2 h2 {
+    font-size: 15px;
+  }
+
+  .logotipai {
+    margin-top: 50px;
+  }
+  .pagrindinis3 img {
+    width: 630px;
+    max-width: 100%;
+    height: auto;
+  }
+  .pagrindinis {
+    max-width: 1410px;
+    height: 920px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .pagrindinis3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .pagrindinis1 img {
+    display: none;
+  }
+  .pagrindinis2 {
+    padding: 0;
+    padding-top: 150px;
+    position: relative;
+  }
+
+  .pagrindinis3 img {
+    position: absolute;
+    width: 530px;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 320px;
+    left: 600px;
+  }
+
+  .pagrindinis {
+    max-width: 1200px;
+    height: 850px;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .pagrindinis3 img {
+    width: 500px;
+  }
+  .pagrindinis2-1 h2 {
+    font-size: 30px;
+  }
+  .pagrindinis2-1 p {
+    font-size: 12px;
+    width: 450px;
+  }
+}
+@media screen and (max-width: 1120px) {
+  .pagrindinis3 img {
+    width: 400px;
+  }
+}
+ @media screen and (max-width: 960px) {
+.pagrindinis{
+    position: relative;
+}
+.pagrindinis2-1 {
+    position: absolute;
+    top: 400px;
+    left: 180px;
+    
+
+}
+.pagrindinis2-1 h2 {
+    font-size: 22px;
+
+}
+
+.pagrindinis3 img{
+    position: absolute;
+    top: 100px;
+    left: 260px;
+
+}
+.pagrindinis2-2{
+    position: absolute;
+    top: 450px;
+    ;
+}
+
+.pagrindinis2-2 h2 {
+    width: 400px;
+    padding-left: 180px;
+}
+
+} 
+
+
+@media screen and (max-width: 480px) {
+}
+@media screen and (max-width: 480px) {
+}
+@media screen and (max-width: 480px) {
+}
+@media screen and (max-width: 480px) {
+}

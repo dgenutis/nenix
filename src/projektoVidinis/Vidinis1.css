@@ -1,0 +1,73 @@
+.vidinis {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  position: relative;
+}
+
+.vidinis img {
+  max-width: 1400px;
+  margin: 0 auto;
+  z-index: 1;
+  position: relative;
+}
+
+.objektai {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  z-index: 2;
+  position: absolute;
+  bottom: -55px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.objektas1,
+.objektas2 {
+  width: 235px;
+  height: 97px;
+  border-radius: 15px;
+  background-color: #0c1a3a;
+  color: #fff;
+}
+
+.objektas3 {
+  width: 229px;
+  height: 97px;
+  border-radius: 15px;
+  background-color: #0c1a3a;
+  color: #fff;
+}
+
+.objektas4 {
+  width: 282px;
+  height: 97px;
+  border-radius: 15px;
+  background-color: #0c1a3a;
+  color: #fff;
+}
+
+.objektas1 h3,
+.objektas2 h3,
+.objektas3 h3,
+.objektas4 h3 {
+  margin-left: 30px;
+  font-family: 'Roboto Serif', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.objektas1 p,
+.objektas2 p,
+.objektas3 p,
+.objektas4 p {
+  margin-left: 30px;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  margin-top: 10px
+}

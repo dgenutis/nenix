@@ -1,0 +1,44 @@
+.apie-statistika{
+    margin: 0 auto;
+    width: 1400px;
+    max-width: 100%;
+    height: 273px;
+    display: flex;
+    gap: 66px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.apie-statistika1, .apie-statistika2, .apie-statistika3 {
+    width: 383px;
+    height: 183px;
+    max-width: 100%;
+    text-align: center;
+}
+
+.apie-statistika1 h2, .apie-statistika2 h2, .apie-statistika3 h2 {
+
+font-family: 'Roboto Serif', sans-serif;
+font-size: 45px;
+font-weight: 600;
+line-height: 52.7px;
+color: #0C1A3A;
+
+}
+
+.apie-statistika1 h3, .apie-statistika2 h3, .apie-statistika3 h3 {
+font-family: 'Roboto Serif', sans-serif;
+font-size: 25px;
+font-weight: 500;
+line-height: 29.28px;
+letter-spacing: 0.03em;
+color:#0C1A3A; ;
+}
+
+.apie-statistika1 p, .apie-statistika2 p, .apie-statistika3 p{
+font-size: 18px;
+font-weight: 400;
+line-height: 23.44px;
+letter-spacing: 0.03em;
+color:#0C1A3AE5;
+}
