@@ -109,3 +109,51 @@
   padding: 25px;
   margin: 0;
 }
+
+@media screen and (max-width: 1415px) {
+.paslaugu-turinys {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 29px;
+  max-width: 1400px;
+}
+  
+}
+@media screen and (max-width: 850px) {
+
+  .paslaugosPavadinimas h2 {
+    max-width: 800px;
+    font-size: 20px;
+  }
+  .paslaugosPavadinimas h1 {
+    font-size: 50px;
+    max-width: 800px;
+  }
+
+  
+
+}
+@media screen and (max-width: 800px) {
+  .paslaugosPavadinimas h2 {
+    max-width: 500px;
+    font-size: 20px;
+  }
+  .paslaugosPavadinimas h1 {
+    font-size: 40px;
+    max-width: 500px;
+  }
+
+
+}
+@media screen and (max-width: 600px) {
+  .paslaugosPavadinimas h2 {
+    max-width: 500px;
+    font-size: 20px;
+  }
+  .paslaugosPavadinimas h1 {
+    font-size: 30px;
+    max-width: 500px;
+  }
+
+}

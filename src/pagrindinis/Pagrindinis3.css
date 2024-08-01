@@ -119,3 +119,306 @@
   height: 28px;
   margin-right: 20px;
 }
+
+
+@media screen and (max-width: 1415px) {
+.misija-left img {
+  width: 600px;
+  height: 600px;
+
+}
+
+.misija-left .img1 {
+  object-position: 25% top;
+}
+
+.misija-left .img2 {
+
+  bottom: 10%;
+  right: 10%;
+}
+
+.misija-left .img3 {
+
+  bottom: 15%;
+  right: 15%;
+}
+
+}
+@media screen and (max-width: 1400px) {
+.misija-left img {
+  width: 500px;
+  height: 500px;
+  left: 20%
+
+}
+
+.misija-left .img1 {
+  object-position: 25% top;
+  left: 25%
+}
+
+.misija-left .img2 {
+  bottom: 25%;
+  left: 20%;
+}
+
+.misija-left .img3 {
+  bottom: 30%;
+  left: 15%;
+}
+
+.misija-right {
+  max-width: 486px;
+}
+
+.misija-right h3 {
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.misija-right h2 {
+  font-size: 54px;
+  width: 486px;
+}
+
+.misija-right p {
+  width: 400px;
+
+  font-size: 15px;
+  letter-spacing: 0.03em;
+
+}
+
+.statistika1 p,
+.statistika2 p {
+  width: 180px;
+  height: 21px;
+  font-size: 14px;
+}
+
+.statistika1 h3,
+.statistika2 h3 {
+  font-size: 40px;
+}
+
+.misija-right button {
+  width: 258px;
+  height: 38px;
+  font-size: 16px;
+  color: #0c1a3ae5;
+}
+
+.misija-right button img {
+  width: 26px;
+  height: 26px;
+  margin-right: 26px;
+}
+
+}
+@media screen and (max-width: 1200px) {
+  .misija-left img {
+  width: 400px;
+  height: 400px;
+}
+
+.misija-left .img1 {
+  left: 25%;
+  top: 25%
+}
+
+.misija-left .img2 {
+  bottom: 18%;
+  left: 20%;
+}
+
+.misija-left .img3 {
+  bottom: 23%;
+  left: 15%;
+}
+
+.misija-right {
+  max-width: 486px;
+}
+
+.misija-right h3 {
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.misija-right h2 {
+  font-weight: 500;
+  font-size: 44px;
+  width: 400px;
+}
+
+.misija-right p {
+  font-weight: 300;
+  width: 400px;
+  font-size: 14px;
+}
+
+.statistika1 p,
+.statistika2 p {
+  width: 180px;
+  height: 21px;
+  font-size: 14px;
+}
+
+.statistika1 h3,
+.statistika2 h3 {
+  font-size: 40px;
+}
+
+.misija{
+  max-height: 600px;
+}
+
+
+
+
+}
+@media screen and (max-width: 960px) {
+  .misija-left img {
+  width: 300px;
+  height: 300px;
+}
+
+.misija-left .img1 {
+  left: 25%;
+  top: 25%
+}
+
+.misija-left .img2 {
+  bottom: 31%;
+  left: 20%;
+}
+
+.misija-left .img3 {
+  bottom: 35%;
+  left: 16%;
+}
+
+.misija-right {
+  max-width: 486px;
+}
+
+.misija-right h3 {
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.misija-right h2 {
+  font-weight: 500;
+  font-size: 40px;
+  width: 400px;
+}
+
+.misija-right p {
+  font-weight: 300;
+  width: 400px;
+  font-size: 14px;
+}
+
+.statistika1 p,
+.statistika2 p {
+  width: 180px;
+  height: 21px;
+  font-size: 14px;
+}
+
+.statistika1 h3,
+.statistika2 h3 {
+  font-size: 40px;
+}
+
+.misija{
+  max-height: 600px;
+}
+
+
+
+}
+@media screen and (max-width: 850px) {
+  .misija-left img {
+  width: 300px;
+  height: 300px;
+}
+
+.misija-left .img1 {
+  left: 25%;
+  top: 25%
+}
+
+.misija-left .img2 {
+  bottom: 31%;
+  left: 20%;
+}
+
+.misija-left .img3 {
+  bottom: 35%;
+  left: 16%;
+}
+
+.misija-right {
+  max-width: 486px;
+}
+
+.misija-right h3 {
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.misija-right h2 {
+  font-weight: 400;
+  font-size: 30px;
+  width: 300px;
+}
+
+.misija-right p {
+  font-weight: 300;
+  width: 350px;
+  font-size: 12px;
+}
+
+.statistika1 p,
+.statistika2 p {
+  width: 170px;
+  height: 21px;
+  font-size: 12px;
+}
+
+.statistika1 h3,
+.statistika2 h3 {
+  font-size: 30px;
+}
+
+.misija{
+  max-height: 600px;
+}
+
+}
+@media screen and (max-width: 750px) {
+
+  .misija{
+    flex-direction: column;
+    max-height: 900px;
+    gap: 10px;
+  }
+
+
+.misija-left .img2 {
+  bottom: 25%;
+  left: 22%;
+}
+
+.misija-left .img3 {
+  bottom: 29%;
+  left: 19%;
+}
+
+.misija-right {
+margin-bottom: 50px;
+}
+
+}

@@ -59,3 +59,44 @@
   color: #0C1A3AE5;
   margin: 0;
 }
+
+
+@media (max-width:1500px) {
+.musuNariai {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.musuKomanda{
+  max-height: 1500px;
+}
+.musuNariai h3 {
+  text-align: center;
+}
+
+.musuNariai p {
+  text-align: center;
+}
+}
+
+@media (max-width: 931px) {
+.musuKomanda{
+  max-height: 2000px;
+}
+.musuNariai h3 {
+  text-align: center;
+}
+
+.musuNariai p {
+  text-align: center;
+}
+
+}
+
+@media (max-width: 720px) {
+
+.musuKomanda{
+  max-height: 2100px;
+}
+
+}

@@ -42,3 +42,25 @@ line-height: 23.44px;
 letter-spacing: 0.03em;
 color:#0C1A3AE5;
 }
+
+
+@media (max-width: 1250px) {
+.apie-statistika {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+}
+@media (max-width: 1206px) {
+.apie-statistika {
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+}
+@media (max-width: 885px) {
+.apie-statistika{
+    height: 800px;
+}
+}

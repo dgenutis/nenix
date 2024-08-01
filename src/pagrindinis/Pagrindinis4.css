@@ -8,6 +8,9 @@
   margin: 0 auto;
   padding-bottom: 300px;
 }
+.procensas img {
+  width: 100%;
+}
 
 .procesas h3 {
   font-family: "Roboto Serif", sans-serif;
@@ -73,6 +76,11 @@
   text-align: left;
   padding-bottom: 50px;
 }
+
+.darbai img {
+  width: 100%;
+}
+
 .darbai-right {
   margin-top: 50px;
   align-items: flex-end;
@@ -101,4 +109,237 @@
   width: 28px;
   height: 28px;
   margin-right: 20px;
+}
+
+@media screen and (max-width: 1420px) {
+  .procesas img {
+    width: 80%;
+  }
+  .procesas h3 {
+    font-size: 30px;
+  }
+  .procesas h2 {
+    font-size: 60px;
+  }
+
+  .naujausiDarbai {
+    padding: 0;
+    margin-left: 50px;
+  }
+  .naujausiDarbai h2 {
+    font-size: 60px;
+  }
+  .darbai {
+    position: relative;
+    gap: 0px;
+  }
+  .darbai img {
+    width: 80%;
+  }
+
+  .darbai button {
+    position: absolute;
+    top: -15px;
+    right: 160px;
+  }
+  .darbai h3 {
+    font-size: 24px;
+  }
+  .darbai p {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .procesas img {
+    display: none;
+  }
+  .procesas h3 {
+    display: none;
+  }
+  .procesas h2 {
+    display: none;
+  }
+  .procesas {
+    display: none;
+  }
+  .naujausiDarbai {
+    max-height: 1000px;
+  }
+
+  .darbai button {
+    position: absolute;
+    top: -15px;
+    right: 110px;
+  }
+}
+@media screen and (max-width: 1120px) {
+  .naujausiDarbai {
+    padding: 0;
+    margin-left: 50px;
+  }
+  .naujausiDarbai h2 {
+    font-size: 60px;
+  }
+  .darbai {
+    position: relative;
+    gap: 0px;
+  }
+  .darbai img {
+    width: 80%;
+  }
+
+  .darbai button {
+    position: absolute;
+    top: -15px;
+    right: 110px;
+  }
+  .darbai h3 {
+    font-size: 20px;
+  }
+  .darbai p {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .naujausiDarbai h2 {
+    font-size: 50px;
+  }
+
+  .darbai button {
+    position: absolute;
+    top: -15px;
+    right: 90px;
+    width: 250px;
+    height: 40px;
+    font-size: 14px;
+  }
+  .darbai h3 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 0;
+  }
+  .darbai p {
+    font-size: 15px;
+    margin-top: 0;
+  }
+}
+@media screen and (max-width: 850px) {
+  .naujausiDarbai h2 {
+    font-size: 40px;
+  }
+
+  .darbai button {
+    position: absolute;
+    top: -15px;
+    right: 70px;
+    width: 210px;
+    height: 40px;
+    font-size: 14px;
+  }
+
+  .darbai h3 {
+    max-width: 340px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 0;
+  }
+  .darbai p {
+    font-size: 13px;
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .darbai {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 100px;
+    padding-top: 60px;
+  }
+
+  .darbai img {
+    width: 80%;
+  }
+
+  .darbai button {
+    top: -15px;
+    right: 240px;
+    width: 210px;
+    height: 40px;
+    font-size: 14px;
+  }
+
+  .naujausiDarbai {
+    max-height: 1600px;
+    padding-bottom: 600px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .darbai button {
+    right: 200px;
+    width: 210px;
+    height: 40px;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .darbai button {
+    right: 180px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .darbai {
+    padding-left: 130px;
+    padding-top: 60px;
+  }
+}
+@media screen and (max-width: 620px) {
+  .darbai button {
+    right: 160px;
+  }
+
+  .darbai h3 {
+    max-width: 300px;
+    text-align: center;
+  }
+  .darbai p {
+    font-size: 13px;
+    max-width: 300px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 600px) {
+  .darbai button {
+    right: 140px;
+  }
+
+  .darbai h3 {
+    max-width: 300px;
+    text-align: left;
+  }
+  .darbai p {
+    font-size: 13px;
+    max-width: 300px;
+    text-align: left;
+  }
+
+  .darbai {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 60px;
+    padding-top: 60px;
+  }
+
+}
+@media screen and (max-width: 550px) {
+    .darbai {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 30px;
+    padding-top: 60px;
+  }
+}
+@media screen and (max-width: 1415px) {
+}
+@media screen and (max-width: 1415px) {
 }

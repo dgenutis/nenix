@@ -32,6 +32,7 @@
   color: #ffffff;
   margin-top: 30px;
 }
+
 .misijaP {
   width: 568px;
   font-size: 18px;
@@ -46,26 +47,144 @@
   width: 643px;
   gap: 8px;
   font-size: 18px;
-font-weight: 400;
-line-height: 23.44px;
-letter-spacing: 0.03em;
-color: #Ffffff;
-padding-top: 20px;
+  font-weight: 400;
+  line-height: 23.44px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  padding-top: 20px;
 }
 
 .musuMisija-left1 {
   max-width: 318px;
-  
 }
+
 .musuMisija-left2 {
   max-width: 317px;
 }
 
-.musuMisija-left1 p img {
-  padding-right: 5px;
-  vertical-align: -2px;
-}
+.musuMisija-left1 p img,
 .musuMisija-left2 p img {
   padding-right: 5px;
   vertical-align: -2px;
+}
+
+@media (max-width: 1500px) {
+  .musuMisija-right img {
+    width: 700px;
+    height: auto;
+  }
+}
+@media (max-width: 1431px) {
+  .musuMisija-right img {
+    width: 600px;
+    height: auto;
+  }
+}
+
+@media (max-width: 1337px) {
+  .musuMisija-right img {
+    width: 500px;
+    height: auto;
+  }
+}
+
+@media (max-width: 1230px) {
+  .musuMisija-right img {
+    width: 450px;
+    height: auto;
+  }
+}
+
+@media (max-width: 1200px) {
+  .musuMisija {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 1700px;
+  }
+
+  .musuMisija-content {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+
+  .musuMisija-left {
+    width: 100%;
+    padding-left: 20px;
+    padding-bottom: 20px;
+  }
+
+  .musuMisija-right {
+    padding-top: 20px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .musuMisija-right img {
+    width: 80%;
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .musuMisija-left h3 {
+    font-size: 48px;
+    line-height: 56px;
+  }
+
+  .misijaP {
+    font-size: 16px;
+    max-width: 760px;
+  }
+
+  .musuMisija-container {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .musuMisija-left1,
+  .musuMisija-left2 {
+    max-width: 100%;
+  }
+
+  .musuMisija-right img {
+    width: 400px;
+    height: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .misijaP {
+    max-width: 400px;
+  }
+
+  .musuMisija-left1 p {
+    max-width: 400px;
+  }
+  .musuMisija-left2 p {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 480px) {
+  .musuMisija-left h3 {
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+  .misijaP {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .musuMisija-left {
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+
+  .musuMisija-right {
+    padding-top: 10px;
+  }
 }
