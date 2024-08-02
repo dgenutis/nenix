@@ -16,6 +16,7 @@
     display: flex;
     gap: 50px;
     margin-bottom: 50px;
+
 }
 
 .vidinis-naujausi h3 {
@@ -42,3 +43,41 @@ font-weight: 400;
 letter-spacing: 0.03em;
 color: #0C0C0CE5;
 }
+
+
+@media (max-width: 1470px) {
+.vidinis-naujausi {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.vidinis-naujausi h3 {
+  font-size: 25px;
+  margin: 0;
+}
+
+.vidinis-naujausi p {
+  font-size: 16px;
+  margin: 0;
+}
+ }
+
+ @media (max-width: 931px) {
+
+  .vidinis-projektai h2{
+font-size: 40px;    
+margin-top: 50px;
+  }
+.vidinis-naujausi h3 {
+  margin-top: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.vidinis-naujausi p {
+  font-size: 14px;
+  text-align: center;
+}
+ }

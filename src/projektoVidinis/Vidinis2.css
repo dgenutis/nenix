@@ -34,3 +34,35 @@
     height: auto;
 
 }
+
+@media (max-width: 1240px) {
+    .vidinis-contentas1 {
+        margin-bottom: 100px;
+    }
+}
+@media (max-width: 994px) {
+ .vidinis-contentas2{
+    margin-top: 200px;
+ }
+}
+@media (max-width: 800px) {
+ .vidinis-contentas2{
+    margin-top: 300px;
+ }
+}
+@media (max-width: 660px) {
+ .vidinis-contentas2{
+    margin-top: 400px;
+ }
+}
+@media (max-width: 565px) {
+ .vidinis-contentas2{
+    margin-top: 500px;
+ }
+}
+@media (max-width: 520px) {
+ .vidinis-contentas2{
+    margin-top: 600px;
+ }
+}
+

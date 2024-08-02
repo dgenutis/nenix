@@ -11,55 +11,53 @@
     border: 1px solid #dfdfdf;
 }
 
-.kontaktai-left{
-max-width: 468px;
+.kontaktai-left {
+    max-width: 468px;
 }
 
 .kontaktai-left h3 {
-
-font-family: 'Roboto Serif', sans-serif;
-font-size: 64px;
-font-weight: 600;
-line-height: 74.94px;
-text-align: left;
-margin: 0;
-color: #0C1A3A;
+    font-family: 'Roboto Serif', sans-serif;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 74.94px;
+    text-align: left;
+    margin: 0;
+    color: #0C1A3A;
 }
 
 .kontaktai-left p {
-font-size: 18px;
-font-weight: 400;
-letter-spacing: 0.03em;
-color: #0C1A3AE5;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    color: #0C1A3AE5;
 }
 
-.kontaktu-blokas{
+.kontaktu-blokas {
     display: flex;
     flex-direction: row;
     margin-top: 20px;
     align-items: center;
 }
 
-.kontaktai-left1{
+.kontaktai-left1 {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.kontaktai-left2{
+.kontaktai-left2 {
     padding-left: 20px;
-
 }
 
-.kontaktai-left2 h4{
-margin: 0;
-padding-top: 10px;
-font-family: 'Roboto Serif', sans-serif;
-font-size: 20px;
-font-weight: 600;
-line-height: 23.42px;
-text-align: left;
-color: #0C1A3A;
+.kontaktai-left2 h4 {
+    margin: 0;
+    padding-top: 10px;
+    font-family: 'Roboto Serif', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23.42px;
+    text-align: left;
+    color: #0C1A3A;
 }
 
 .kontaktai-left2 p {
@@ -71,16 +69,16 @@ color: #0C1A3A;
     color: #0C1A3A;
     text-decoration: none;
 }
-.kontaktai-left2 a:hover{
+
+.kontaktai-left2 a:hover {
     text-decoration: underline;
 }
 
 .miniIcons img {
-margin-top: 20px;    
-margin-right: 40px;
-cursor: pointer;
+    margin-top: 20px;
+    margin-right: 40px;
+    cursor: pointer;
 }
-
 
 .kontaktai-right {
     width: 795px;
@@ -91,7 +89,7 @@ cursor: pointer;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* Distribute space evenly */
+    justify-content: space-between;
 }
 
 .kontaktai-right p {
@@ -106,7 +104,7 @@ cursor: pointer;
     display: flex;
     justify-content: space-between;
     gap: 20px;
-    flex-grow: 1; /* Allow it to grow and take available space */
+    flex-grow: 1; 
 }
 
 .forma1, .forma2 {
@@ -114,14 +112,14 @@ cursor: pointer;
 }
 
 .forma1 input, .forma2 input, textarea {
-    width: calc(100% - 30px); 
+    width: calc(100% - 30px);
     border: none;
     border-bottom: 1px solid #dfdfdf;
     background-color: #f4f4f4;
     margin: 0 0 20px 0;
     box-sizing: border-box;
     outline: none;
-    padding: 5px; 
+    padding: 5px;
 }
 
 textarea {
@@ -139,7 +137,7 @@ textarea {
     border-radius: 23px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    margin-top: 20px; /* Adjust this value as needed */
+    margin-top: 20px; 
 }
 
 .kontaktai-right button:hover {
@@ -147,10 +145,112 @@ textarea {
     transition: opacity 0.3s ease-in-out;
 }
 
-
 .zemelapis {
     display: flex;
     align-items: center;
-justify-content: center;
-margin: 100px 0 100px 0;
+    justify-content: center;
+    margin: 100px 0; 
+    width: 100%;
+    max-width: 1400px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.zemelapis img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 1430px) {
+
+    .kontaktai{
+        gap: 50px;
+    }
+    .zemelapis {
+        width: 90%;
+    
+    }
+}
+
+
+@media (max-width: 1024px) {
+  .kontaktai{
+    margin-top: 100px;
+  }
+    }
+@media (max-width: 1100px) {
+    .kontaktai {
+        flex-direction: column;
+    }
+
+    .kontaktai-right {
+        order: 1; 
+        width: 100%;
+        max-width: none;
+        margin-top: 20px; 
+    }
+
+    .kontaktai-left {
+        order: 0;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .kontaktai {
+        padding: 20px;
+        margin-top: 120px;
+    }
+
+    .kontaktai-left, .kontaktai-right {
+        width: 100%;
+        max-width: none;
+    }
+
+    .kontaktai-left h3 {
+        font-size: 38px;
+        line-height: 56px;
+    }
+
+    .kontaktai-left p, .kontaktai-right p {
+        font-size: 16px;
+    }
+
+    .kontaktu-blokas {
+        justify-content: center;
+    }
+
+    .kontaktai-left2 {
+        padding-left: 10px;
+    }
+
+    .miniIcons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    .kontaktai-right {
+        height: auto;
+        padding: 20px;
+    }
+
+    .duomenys {
+        flex-direction: column;
+    }
+
+    .forma1, .forma2 {
+        width: 100%;
+    }
+
+    .kontaktai-right button {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+
 }
