@@ -11,7 +11,7 @@ const Pagrindinis2 = () => {
         </div>
         <div className="paslaugu-turinys">
           <div className="turinys1">
-            <img src="../../public/icona1.png" alt="icona1" />
+            <img src="/icona1.png" alt="icona1" />
             <h3> Turinio Marketingas</h3>
             <p>
               Mūsų specialistai kuria įtraukiantį turinį, kuris iškarto patiks
@@ -19,7 +19,7 @@ const Pagrindinis2 = () => {
             </p>
           </div>
           <div className="turinys2">
-            <img src="../../public/icona2.png" alt="icona2" />
+            <img src="/icona2.png" alt="icona2" />
             <h3>Grafinis Dizainas </h3>
             <p>
               Pasinaudokite vizualinio pasakojimo galia su mūsų ekspertų
@@ -28,7 +28,7 @@ const Pagrindinis2 = () => {
             </p>
           </div>
           <div className="turinys3">
-            <img src="../../public/icona3.png" alt="icona3" />
+            <img src="/icona3.png" alt="icona3" />
             <h3>Skaitmeninis Marketingas </h3>
             <p>
               Pakelkite savo prekės ženklą internete su mūsų duomenimis
@@ -37,7 +37,7 @@ const Pagrindinis2 = () => {
             </p>
           </div>
           <div className="turinys4">
-            <img src="../../public/icona4.png" alt="icona4" />
+            <img src="/icona4.png" alt="icona4" />
             <h3>Tinklalapių Dizainas</h3>
             <p>
               Mes specializuojamės kuriant vizualiai įspūdingas, naudotojui
@@ -46,7 +46,7 @@ const Pagrindinis2 = () => {
             </p>
           </div>
           <div className="turinys5">
-            <img src="../../public/icona5.png" alt="icona5" />
+            <img src="/icona5.png" alt="icona5" />
             <h3>IT konsultacijos</h3>
             <p>
               IT konsultacija, tai paslaugų teikimo praktika, kurioje teikiame
@@ -55,7 +55,7 @@ const Pagrindinis2 = () => {
             </p>
           </div>
           <div className="turinys6">
-            <img src="../../public/icona6.png" alt="icona6" />
+            <img src="/icona6.png" alt="icona6" />
             <h3>Prekės ženklo identitetas</h3>
             <p>
               Tai apima unikalios ir atpažįstamos tapatybės kūrimą, kuri
