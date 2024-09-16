@@ -69,13 +69,13 @@ export default function Footer() {
           </div>
           <div className="footer2-4">
             <a>
-              <img src="../../public/fb.svg" alt="fb" />
+              <img src="/fb.svg" alt="fb" />
             </a>
             <a>
-              <img src="../../public/insta.svg" alt="insta" />
+              <img src="/insta.svg" alt="insta" />
             </a>
             <a>
-              <img src="../../public/linkedin.svg" alt="linkedin" />
+              <img src="/linkedin.svg" alt="linkedin" />
             </a>
           </div>
         </div>
