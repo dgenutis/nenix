@@ -4,7 +4,7 @@ const Pagrindinis1 = () => {
     <>
       <div className="pagrindinis">
         <div className="pagrindinis1">
-          <img src="../../public/Ornament.png" alt="ornament" />
+          <img src="/Ornament.png" alt="ornament" />
         </div>
         <div className="pagrindinis2">
           <div className="pagrindinis2-1">
@@ -15,20 +15,20 @@ const Pagrindinis1 = () => {
               Išbandykite nemokamą bandomąją versiją ir keliaukite į naują
               verslo lygį kartu su mumis!
             </p>
-            <button> <img src="../../public/rodykle.svg" alt="" />Išbandykite nemokamai</button>
+            <button> <img src="/rodykle.svg" alt="" />Išbandykite nemokamai</button>
           </div>
           <div className="pagrindinis2-2">
             <h2>Mumis pasitiki pirmaujantys prekės ženklai</h2>
             <div className="logotipai">
-                <img className="logotipai1" src="../../public/logos1.png" alt="logos1" />
-                <img className="logotipai2" src="../../public/logos2.png" alt="logos2" />
-                <img className="logotipai3" src="../../public/logos3.png" alt="logos3" />
-                <img className="logotipai4" src="../../public/logos4.png" alt="logos4" />
+                <img className="logotipai1" src="/logos1.png" alt="logos1" />
+                <img className="logotipai2" src="/logos2.png" alt="logos2" />
+                <img className="logotipai3" src="/logos3.png" alt="logos3" />
+                <img className="logotipai4" src="/logos4.png" alt="logos4" />
             </div>
           </div>
         </div>
         <div className="pagrindinis3">
-            <img src="../../public/paveiksliukas.png" alt="paveiksliukas" />
+            <img src="/paveiksliukas.png" alt="paveiksliukas" />
         </div>
       </div>
     </>
