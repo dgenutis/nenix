@@ -13,7 +13,7 @@ export default function Header2() {
       <div className="headeris2">
         <header className="header2">
           <div className="logo2">
-            <img src="../../public/logoTamsus.svg" alt="logo" />
+            <img src="/logoTamsus.svg" alt="logo" />
           </div>
           <nav className="nav2">
             <div className="burger2" onClick={toggleMenu}>
