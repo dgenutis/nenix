@@ -60,9 +60,9 @@ const Vidinis2 = () => {
         </div>
       </div>
       <div className="vidinis-contentas2">
-        <img src="../../public/vidinis-projektas1.png" alt="1" />
-        <img src="../../public/vidinis-projektas2.png" alt="2" />
-        <img src="../../public/vidinis-projektas3.png" alt="3" />
+        <img src="/vidinis-projektas1.png" alt="1" />
+        <img src="/vidinis-projektas2.png" alt="2" />
+        <img src="/vidinis-projektas3.png" alt="3" />
       </div>
     </>
   );
