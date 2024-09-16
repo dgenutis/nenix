@@ -4,9 +4,9 @@ const Pagrindinis3 = () => {
     <>
       <div className="misija">
         <div className="misija-left">
-          <img src="../../public/cascade1.jpg" alt="1" className="img1" />
-          <img src="../../public/cascade2.jpg" alt="2" className="img2" />
-          <img src="../../public/cascade3.jpg" alt="3" className="img3" />
+          <img src="/cascade1.jpg" alt="1" className="img1" />
+          <img src="/cascade2.jpg" alt="2" className="img2" />
+          <img src="/cascade3.jpg" alt="3" className="img3" />
         </div>
         <div className="misija-right">
           <h3>Apie mus</h3>
@@ -27,7 +27,7 @@ const Pagrindinis3 = () => {
           </div>
           <button>
             {" "}
-            <img src="../../public/rodykle.svg" alt="" />
+            <img src="/rodykle.svg" alt="" />
             Išbandykite nemokamai
           </button>
         </div>
