@@ -17,29 +17,29 @@ const Apie3 = () => {
           <div className="musuMisija-container">
           <div className="musuMisija-left1">
             <p>
-              <img src="../../public/markOrange.svg" alt="mark1" />
+              <img src="/markOrange.svg" alt="mark1" />
               Prisitaikome prie jūsų unikalių poreikių
             </p>
             <p>
-              <img src="../../public/markOrange.svg" alt="mark2" />
+              <img src="/markOrange.svg" alt="mark2" />
               Kuriame inovatyvias ir pritaikomas strategijas
             </p>
             <p>
-              <img src="../../public/markOrange.svg" alt="mark2" />
+              <img src="/markOrange.svg" alt="mark2" />
               Turime gilų supratimą apie skaitmeninio pasaulio subtilybes
             </p>
           </div>
           <div className="musuMisija-left2">
             <p>
-              <img src="../../public/markOrange.svg" alt="mark1" />
+              <img src="/markOrange.svg" alt="mark1" />
               Bendradarbiaujame su jumis nuo pradžios iki pabaigos.
             </p>
             <p>
-              <img src="../../public/markOrange.svg" alt="mark2" />
+              <img src="/markOrange.svg" alt="mark2" />
               Suteikiame greitus ir į rezultatus orientuotus sprendimus.
             </p>
             <p>
-              <img src="../../public/markOrange.svg" alt="mark2" />
+              <img src="/markOrange.svg" alt="mark2" />
               Siūlome tik aukščiausios kokybės paslaugas ir produktus.
             </p>
           </div>
@@ -47,7 +47,7 @@ const Apie3 = () => {
           </div>
         </div>
       <div className="musuMisija-right">
-<img src="../../public/vaizdas.png" alt="" />
+<img src="/vaizdas.png" alt="" />
       </div>
 
         </div>
