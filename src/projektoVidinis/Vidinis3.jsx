@@ -8,7 +8,7 @@ const Vidinis3 = () => {
 
         <div className="vidinis-naujausi">
           <div className="naujas-projektas1">
-            <img src="../../public/vidinis-naujas1.png" alt="1" />
+            <img src="/vidinis-naujas1.png" alt="1" />
             <h3
               class="truncated-text"
               title="Tinklalapių vartotojo sąsajos dizainas"
@@ -20,13 +20,13 @@ const Vidinis3 = () => {
           <div className="naujas-projektas2">
             <a href="#">
               {" "}
-              <img src="../../public/vidinis-naujas2.png" alt="2" />
+              <img src="/vidinis-naujas2.png" alt="2" />
             </a>
             <h3>Kurti skaitmeninę strategiją</h3>
             <p>Socialinių tinklų Marketingas</p>
           </div>
           <div className="naujas-projektas3">
-            <img src="../../public/vidinis-naujas3.png" alt="3" />
+            <img src="/vidinis-naujas3.png" alt="3" />
             <h3>Reklaminių banerių kūrimas</h3>
             <p>Grafinis dizainas</p>
           </div>
