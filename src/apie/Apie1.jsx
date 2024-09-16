@@ -13,12 +13,12 @@ const Apie1 = () => {
             lygį kartu su mumis!
           </p>
           <div className="apie1-left1">
-            <img src="../../public/apie1.png" alt="apie" />
-            <img src="../../public/stars.png" alt="apie" />
+            <img src="/apie1.png" alt="apie" />
+            <img src="/stars.png" alt="apie" />
           </div>
         </div>
         <div className="apie1-right">
-          <img src="../../public/fotos.png" alt="" />
+          <img src="/fotos.png" alt="" />
         </div>
       </div>
     </>
