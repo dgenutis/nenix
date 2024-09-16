@@ -13,13 +13,13 @@ const Kontaktai1 = () => {
           <div className="kontaktu-blokas">
             <div className="kontaktai-left1">
               <a href="#">
-                <img src="../../public/kontaktai1.svg" alt="kontaktai1" />
+                <img src="/kontaktai1.svg" alt="kontaktai1" />
               </a>
               <a href="#">
-                <img src="../../public/kontaktai2.svg" alt="kontaktai2" />
+                <img src="/kontaktai2.svg" alt="kontaktai2" />
               </a>
               <a href="#">
-                <img src="../../public/kontaktai3.svg" alt="kontaktai3" />
+                <img src="/kontaktai3.svg" alt="kontaktai3" />
               </a>
             </div>
 
@@ -40,9 +40,9 @@ const Kontaktai1 = () => {
           </div>
           <hr />
           <div className="miniIcons">
-            <img src="../../public/miniIcon1.svg" alt="mini1" />
-            <img src="../../public/miniIcon2.svg" alt="mini2" />
-            <img src="../../public/miniIcon3.svg" alt="mini3" />
+            <img src="/miniIcon1.svg" alt="mini1" />
+            <img src="/miniIcon2.svg" alt="mini2" />
+            <img src="/miniIcon3.svg" alt="mini3" />
           </div>
         </div>
         <div className="kontaktai-right">
@@ -69,7 +69,7 @@ const Kontaktai1 = () => {
       </div>
       <div className="zemelapis">
         <a href="#">
-          <img src="../../public/Map.png" alt="map" />
+          <img src="/Map.png" alt="map" />
         </a>
       </div>
     </>
