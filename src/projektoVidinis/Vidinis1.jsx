@@ -3,7 +3,7 @@ const Vidinis1 = () => {
   return (
     <>
       <div className="vidinis">
-        <img src="../../public/vidinis.png" alt="vidinis" />
+        <img src="/vidinis.png" alt="vidinis" />
         <div className="objektai">
           <div className="objektas1">
             <h3>Kategorija:</h3>
