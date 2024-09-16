@@ -14,7 +14,7 @@ export default function Header() {
       <div className="headeris">
         <header>
           <div className="logo1">
-            <img src="public/logo1.svg" alt="logo" />
+            <img src="../../public/logo1.svg" alt="logo" />
           </div>
           <nav>
             <div className="burger" onClick={toggleMenu}>
