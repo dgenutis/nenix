@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="footer">
         <div className="footer1">
           <div className="footer1-1">
-            <img src="../../public/Logo1.svg" alt="" />
+            <img src="/Logo1.svg" alt="" />
             <p>
               Mes esame strategų ir skaitmeninių inovatorių komanda, suvienyta
               siekiant meistriškumo ir pilnatvės.
